@@ -132,7 +132,7 @@ class Juego {
   }
 
   ganoElJuego(){
-    swal("Que perra!", " gano! :o", "success")
+    swal("Fantastico!", " Has ganado! :o", "success")
     .then(()=>{
       this.eliminarEventosClick()
       this.inicializar()
@@ -140,7 +140,7 @@ class Juego {
   }
 
   perdioElJuego(){
-    swal("Que manco!", "perdio jajaj axdxdddxd!!1!", "error")
+    swal("Recorcholis!", "Intentalo de nuevo!", "error")
     .then(()=>{
       this.eliminarEventosClick()
       this.inicializar()
